@@ -29,7 +29,7 @@ public class MockitoTest {
         when(hotelDaoMock.fetchAvailableRooms()).thenReturn(availableRooms);
 
         Assert.assertTrue(bm.checkRoomAvailability("A"));
-    }
+    }//Mockito creates a mock DAO and mocks checking the DB
 
     @Test
     public void testAvailableRoomsFalse() throws SQLException {
@@ -37,5 +37,6 @@ public class MockitoTest {
         when(hotelDaoMock.fetchAvailableRooms()).thenReturn(availableRooms);
 
         Assert.assertTrue(bm.checkRoomAvailability("B"));
-    }
+    }//Mockito creates a mock DAO and mocks creating DB. I wonder if I can use Mockito
+     //To mock or test user input as well
 }

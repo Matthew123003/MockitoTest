@@ -16,5 +16,6 @@ public class HotelDao {
             availableRooms.add(rs.getString("Room name"));
         }
         return availableRooms;
-    }
+    }//Creates SQL DB connection, creates statement, the Result set executes the query and extracts
+     //info to the result set
 }
