@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a46d6e56-f26e-4d57-bfc3-a24c685f7e30" name="Changes" comment="" />
+    <list default="true" id="a46d6e56-f26e-4d57-bfc3-a24c685f7e30" name="Changes" comment="Trying to update from upstream main">
+      <change beforePath="$PROJECT_DIR$/Test/MockitoTest/MockitoTest/MockitoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/MockitoTest/MockitoTest/MockitoTest/MockitoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/main/BookingManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/main/BookingManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/main/HotelDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/main/HotelDao.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +36,7 @@
 }</component>
   <component name="RunManager" selected="JUnit.MockitoTest">
     <configuration name="MockitoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mockitoTest" />
+      <module name="MockitoTest" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="MockitoTest.*" />
@@ -44,7 +51,7 @@
       </method>
     </configuration>
     <configuration name="MockitoTest.testAvailableRoomsFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mockitoTest" />
+      <module name="MockitoTest" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="MockitoTest.*" />
@@ -55,19 +62,6 @@
       <option name="MAIN_CLASS_NAME" value="MockitoTest.MockitoTest" />
       <option name="METHOD_NAME" value="testAvailableRoomsFalse" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="MockitoTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="MockitoTest" />
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -88,6 +82,27 @@
       <option name="presentableId" value="Default" />
       <updated>1713353405717</updated>
     </task>
+    <task id="LOCAL-00001" summary="Trying to update from upstream main">
+      <option name="closed" value="true" />
+      <created>1713436172422</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713436172422</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Trying to update from upstream main">
+      <option name="closed" value="true" />
+      <created>1713436198214</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713436198214</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Trying to update from upstream main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trying to update from upstream main" />
   </component>
 </project>
