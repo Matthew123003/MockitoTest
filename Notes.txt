@@ -1,0 +1,9 @@
+To test drive your code, you should create a wrapper for system input/output functions.
+You can do this using dependency injection, giving us a class that can ask for new integers:
+
+Then you can create tests for your function, using a mock framework (Mockito):
+
+Then write your function that passes the tests. The function is much cleaner since you can
+remove the asking/getting integer duplication and the actual system calls are encapsulated.
+
+
