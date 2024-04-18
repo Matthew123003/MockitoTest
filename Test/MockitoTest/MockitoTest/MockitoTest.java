@@ -36,7 +36,7 @@ public class MockitoTest {
         List<String> availableRooms = Arrays.asList("A");
         when(hotelDaoMock.fetchAvailableRooms()).thenReturn(availableRooms);
 
-        Assert.assertTrue(bm.checkRoomAvailability("B"));
+        Assert.assertFalse(bm.checkRoomAvailability("B"));
     }//Mockito creates a mock DAO and mocks creating DB. I wonder if I can use Mockito
      //To mock or test user input as well
 }

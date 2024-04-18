@@ -4,9 +4,9 @@ import java.sql.SQLException;
 import java.util.List;
 
 public class BookingManager {
-    private HotelDao dao;//DB Data Access Object
+    private main.HotelDao dao;//DB Data Access Object
 
-    public BookingManager(HotelDao dao) {
+    public BookingManager(main.HotelDao dao) {
         this.dao = dao;
     }
 
