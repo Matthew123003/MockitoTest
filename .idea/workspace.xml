@@ -5,14 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a46d6e56-f26e-4d57-bfc3-a24c685f7e30" name="Changes" comment="Trying to update from upstream main">
-      <change beforePath="$PROJECT_DIR$/Test/MockitoTest/MockitoTest/MockitoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/MockitoTest/MockitoTest/MockitoTest/MockitoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main/BookingManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/main/BookingManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main/HotelDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main/main/HotelDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -72,6 +77,13 @@
         <item itemvalue="JUnit.MockitoTest.testAvailableRoomsFalse" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-11.0.22-corretto-11.0.22-3183f394aec4-fdae186d" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
