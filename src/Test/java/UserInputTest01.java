@@ -1,10 +1,10 @@
-
 import org.junit.Assert;
 import org.junit.Test;
 import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.Mockito.*;
 
 public class UserInputTest01 {
+
     @Test
     public void getsIntegerWhenWithinBoundsOfOneToTen() throws Exception {
         IntegerAsker asker = mock(IntegerAsker.class);

@@ -33,6 +33,7 @@
   "keyToString": {
     "JUnit.MockitoTest (1).executor": "Run",
     "JUnit.MockitoTest.executor": "Debug",
+    "JUnit.MockitoTest01.executor": "Run",
     "JUnit.Test.java in mockitoTest.executor": "Run",
     "JUnit.UserInputTest.executor": "Run",
     "JUnit.UserInputTest01.executor": "Run",
@@ -82,16 +83,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test.java in mockitoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MockitoTest01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mockitoTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Test.java" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MockitoTest01" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,10 +119,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.UserInputTest01" />
+        <item itemvalue="JUnit.MockitoTest01" />
         <item itemvalue="JUnit.UserInputTest" />
         <item itemvalue="JUnit.MockitoTest (1)" />
         <item itemvalue="JUnit.MockitoTest" />
-        <item itemvalue="JUnit.Test.java in mockitoTest" />
       </list>
     </recent_temporary>
   </component>
