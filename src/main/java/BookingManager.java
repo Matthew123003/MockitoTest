@@ -3,7 +3,7 @@ import java.util.List;
 
 public class BookingManager {
 
-    private main.HotelDao dao;//DB Data Access Object
+    private main.HotelD dao;//DB Data Access Object
 
     public BookingManager(HotelDAO dao) {
         this.dao = dao;

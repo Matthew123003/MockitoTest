@@ -18,10 +18,10 @@ public class IntegerAsker {
     }
 
     public static void main(String[] args) {
-        getBoundIntegerFromUser(new main.IntegerAsker(System.in, System.out));
+        getBoundIntegerFromUser(new IntegerAsker(System.in, System.out));
     }
 
-    public static int getBoundIntegerFromUser(main.IntegerAsker asker) {
+    public static int getBoundIntegerFromUser(IntegerAsker asker) {
         int input = asker.ask("Give a number between 1 and 10");
         while (input < 1 || input > 10)
             input = asker.ask("Wrong number, try again.");
