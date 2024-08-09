@@ -5,7 +5,7 @@ public class BookingManager {
 
     private main.HotelDao dao;//DB Data Access Object
 
-    public BookingManager(main.HotelDao dao) {
+    public BookingManager(HotelDAO dao) {
         this.dao = dao;
     }
 

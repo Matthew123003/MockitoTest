@@ -1,5 +1,3 @@
-import main.BookingManager;
-import main.HotelDao;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -12,12 +10,12 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
 public class MockitoTest01 {
-    private HotelDao hotelDaoMock;
+    private HotelDAO hotelDaoMock;
     private BookingManager bm;
 
     @Before
     public void setup(){
-        hotelDaoMock = mock(HotelDao.class);
+        hotelDaoMock = mock(HotelDAO.class);
         bm = new BookingManager(hotelDaoMock);
     }
 

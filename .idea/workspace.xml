@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a46d6e56-f26e-4d57-bfc3-a24c685f7e30" name="Changes" comment="Trying to update from upstream main">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MockitoTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MockitoTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/MockitoTest/MockitoTest/MockitoTest/MockitoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/test/MockitoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/MockitoTest/MockitoTest/MockitoTest/UserInputTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/java/test/UserInputTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main/main/BookingManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main/main/HotelDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main/main/IntegerAsker.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/BookingManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/HotelDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/MockitoTest/MockitoTest.class" beforeDir="false" />
-    </list>
+    <list default="true" id="a46d6e56-f26e-4d57-bfc3-a24c685f7e30" name="Changes" comment="Trying to update from upstream main" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +35,7 @@
     "JUnit.MockitoTest.executor": "Debug",
     "JUnit.Test.java in mockitoTest.executor": "Run",
     "JUnit.UserInputTest.executor": "Run",
+    "JUnit.UserInputTest01.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -61,7 +50,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserInputTest">
+  <component name="RunManager" selected="JUnit.UserInputTest01">
     <configuration name="MockitoTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mockitoTest" />
       <extension name="coverage">
@@ -89,22 +78,6 @@
       <option name="MAIN_CLASS_NAME" value="MockitoTest.MockitoTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MockitoTest.testAvailableRoomsFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MockitoTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="MockitoTest" />
-      <option name="MAIN_CLASS_NAME" value="MockitoTest.MockitoTest" />
-      <option name="METHOD_NAME" value="testAvailableRoomsFalse" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,13 +111,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserInputTest01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mockitoTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserInputTest01" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserInputTest01" />
         <item itemvalue="JUnit.UserInputTest" />
         <item itemvalue="JUnit.MockitoTest (1)" />
         <item itemvalue="JUnit.MockitoTest" />
         <item itemvalue="JUnit.Test.java in mockitoTest" />
-        <item itemvalue="JUnit.MockitoTest.testAvailableRoomsFalse" />
       </list>
     </recent_temporary>
   </component>
