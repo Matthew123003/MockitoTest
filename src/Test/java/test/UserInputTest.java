@@ -1,4 +1,4 @@
-package MockitoTest;
+package test;
 
 import main.IntegerAsker;
 import org.junit.Assert;
